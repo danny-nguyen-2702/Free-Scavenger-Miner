@@ -261,17 +261,6 @@ On Windows systems with 64+ logical processors, the miner automatically:
 - Distributes threads across groups
 - Sets thread affinity for optimal NUMA performance
 
-### Hash Rate Expectations
-
-| CPU Type | Cores | Hash Rate (approx) |
-|----------|-------|-------------------|
-| Budget laptop | 4 cores | 200-500 H/s |
-| Desktop CPU | 8 cores | 500-1500 H/s |
-| High-end Desktop | 16 cores | 1500-4000 H/s |
-| Workstation | 32+ cores | 4000+ H/s |
-
-*Actual performance depends on CPU architecture, clock speed, and memory bandwidth*
-
 ## Troubleshooting
 
 ### Common Issues
@@ -353,6 +342,7 @@ For issues or questions:
 ---
 
 **Happy Mining!** 🚀⛏️
+
 
 
 
