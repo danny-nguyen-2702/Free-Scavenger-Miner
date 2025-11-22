@@ -1,6 +1,6 @@
 # Free Scavenger Miner
 
-A high-performance, user-only cryptocurrency miner for the [Scavenger Mine](https://mine.defensio.io) mining game built with Rust.
+A high-performance, user-only cryptocurrency miner for the [Defensio Scavenger Mine](https://defensio.io/mine) mining game built with Rust.
 
 ## Overview
 
@@ -36,11 +36,11 @@ Free Scavenger Miner is a standalone mining application that uses the AshMaize p
 
 **Don't want to build from source?** Download the latest prebuilt executable for your platform:
 
-### [📥 Download from Releases](https://github.com/danny-nguyen-2702/Free-Scavenger-Miner/releases)
+### [📥 Download from Releases](https://github.com/danny-nguyen-2702/Free--Miner/releases)
 
 Available platforms:
-- **Windows** (x64) - `scavenger-miner.exe`
-- **Linux** (x64, static) - `scavenger-miner-linux`
+- **Windows** (x64) - `-miner.exe`
+- **Linux** (x64, static) - `-miner-linux`
 - **macOS** (Intel & Apple Silicon) - `scavenger-miner-macos`
 
 ### Quick Setup (Prebuilt Binary)
@@ -344,7 +344,6 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 ## Acknowledgments
 
 - **AshMaize Algorithm** - [Zondax/ce-ashmaize](https://github.com/Zondax/ce-ashmaize)
-- **Scavenger Mine** - [mine.defensio.io](https://mine.defensio.io)
 
 ## Support
 
@@ -355,3 +354,4 @@ For issues or questions:
 ---
 
 **Happy Mining!** 🚀⛏️
+
