@@ -18,23 +18,47 @@ Free Scavenger Miner is a standalone mining application that uses the AshMaize p
 
 ## Requirements
 
-- **Rust** 1.75.0 or later ([Install Rust](https://rustup.rs/))
+### Running the Miner (Prebuilt Binary)
+
 - **CPU** - Any modern CPU (more cores = better performance)
 - **RAM** - Minimum 2GB available (ROM initialization requires ~1GB)
 - **Network** - Internet connection for API communication
 
-### Platform-Specific Requirements
+### Building from Source
 
-**Windows:**
-- Visual Studio Build Tools or MinGW-w64
+- **Rust** 1.75.0 or later ([Install Rust](https://rustup.rs/))
+- **Platform-Specific Build Tools:**
+  - **Windows:** Visual Studio Build Tools or MinGW-w64
+  - **Linux:** GCC/build-essential or musl-tools (for static binaries)
+  - **macOS:** Xcode Command Line Tools
 
-**Linux:**
-- GCC/build-essential or musl-tools (for static binaries)
+## Download Prebuilt Executable
 
-**macOS:**
-- Xcode Command Line Tools
+**Don't want to build from source?** Download the latest prebuilt executable for your platform:
 
-## Quick Start
+### [📥 Download from Releases](https://github.com/danny-nguyen-2702/Free-Scavenger-Miner/releases)
+
+Available platforms:
+- **Windows** (x64) - `scavenger-miner.exe`
+- **Linux** (x64, static) - `scavenger-miner-linux`
+- **macOS** (Intel & Apple Silicon) - `scavenger-miner-macos`
+
+### Quick Setup (Prebuilt Binary)
+
+1. **Download** the executable for your platform from the [Releases page](https://github.com/danny-nguyen-2702/Free-Scavenger-Miner/releases)
+2. **Extract** the archive (if compressed)
+3. **Create** a `wallets.txt` file in the same directory with your wallet addresses
+4. **Run** the executable:
+   - **Windows**: Double-click `scavenger-miner.exe` or run from command prompt
+   - **Linux/macOS**: `chmod +x scavenger-miner && ./scavenger-miner`
+
+That's it! No compilation needed.
+
+---
+
+## Build from Source
+
+If you prefer to build from source or need a custom configuration:
 
 ### 1. Clone the Repository
 
