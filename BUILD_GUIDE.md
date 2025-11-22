@@ -75,8 +75,8 @@ cargo 1.75.0 (or later)
 1. **Clone the repository:**
 
    ```powershell
-   git clone https://github.com/danny-nguyen-2702/Profit-Sharing-Scavenger-Miner-Rust-3.0.0.git
-   cd Profit-Sharing-Scavenger-Miner-Rust-3.0.0\scavenger-miner-code
+   git clone https://github.com/danny-nguyen-2702/Free-Scavenger-Miner.git
+   cd Free-Scavenger-Miner\scavenger-miner-code
    ```
 
 2. **Build the static binary:**
@@ -134,11 +134,40 @@ Binary location: `target\x86_64-pc-windows-gnu\release\scavenger-miner.exe`
 
 ## Linux Build
 
+### Important: Install Build Tools First
+
+**⚠️ Before building, you MUST install build-essential (includes gcc/cc compiler):**
+
+**Ubuntu/Debian:**
+
+```bash
+sudo apt update
+sudo apt install build-essential -y
+```
+
+**Fedora/RHEL:**
+
+```bash
+sudo dnf groupinstall "Development Tools" -y
+```
+
+**Arch Linux:**
+
+```bash
+sudo pacman -S base-devel
+```
+
+**If you skip this step, you'll get an error:** `error: linker 'cc' not found`
+
+---
+
 ### Method 1: Static Binary with MUSL (Fully Static - Recommended)
 
 This creates a **100% static binary** with no dynamic dependencies.
 
 #### Prerequisites
+
+First, ensure you have build-essential installed (see above), then install MUSL tools:
 
 **Ubuntu/Debian:**
 
@@ -170,8 +199,8 @@ sudo pacman -S musl
 2. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/danny-nguyen-2702/Profit-Sharing-Scavenger-Miner-Rust-3.0.0.git
-   cd Profit-Sharing-Scavenger-Miner-Rust-3.0.0/scavenger-miner-code
+   git clone https://github.com/danny-nguyen-2702/Free-Scavenger-Miner.git
+   cd Free-Scavenger-Miner/scavenger-miner-code
    ```
 
 3. **Build the static binary:**
@@ -270,8 +299,8 @@ cargo build --bin scavenger-miner --release --target armv7-unknown-linux-musleab
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/danny-nguyen-2702/Profit-Sharing-Scavenger-Miner-Rust-3.0.0.git
-   cd Profit-Sharing-Scavenger-Miner-Rust-3.0.0/scavenger-miner-code
+   git clone https://github.com/danny-nguyen-2702/Free-Scavenger-Miner.git
+   cd Free-Scavenger-Miner/scavenger-miner-code
    ```
 
 2. **Build for your architecture:**
@@ -626,7 +655,7 @@ RUSTFLAGS="-C target-cpu=native" cargo build --bin scavenger-miner --release --t
 
 For issues or questions:
 
-- GitHub Issues: https://github.com/danny-nguyen-2702/Profit-Sharing-Scavenger-Miner-Rust-3.0.0/issues
+- GitHub Issues: https://github.com/danny-nguyen-2702/Free-Scavenger-Miner/issues
 - Check the troubleshooting section above
 - Review the main README.md
 
