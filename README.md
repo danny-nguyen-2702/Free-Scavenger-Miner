@@ -41,7 +41,6 @@ Free Scavenger Miner is a standalone mining application that uses the AshMaize p
 Available platforms:
 - **Windows** (x64) - `scavenger-miner.exe`
 - **Linux** (x64, static) - `scavenger-miner`
-- **macOS** (Intel & Apple Silicon) - `scavenger-miner`
 
 ### Quick Setup (Prebuilt Binary)
 
@@ -354,5 +353,6 @@ For issues or questions:
 ---
 
 **Happy Mining!** 🚀⛏️
+
 
 
