@@ -315,7 +315,7 @@ For systems with fewer than 6 threads, newer challenges are preferred (faster re
 
 ## License
 
-This project uses code from [ce-ashmaize](https://github.com/Zondax/ce-ashmaize), which is dual-licensed under:
+This project uses code from [ce-ashmaize](https://github.com/input-output-hk/ce-ashmaize), which is dual-licensed under:
 
 - Apache License, Version 2.0 ([LICENSE-APACHE](ce-ashmaize/LICENSE-APACHE))
 - MIT License ([LICENSE-MIT](ce-ashmaize/LICENSE-MIT))
@@ -331,7 +331,7 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 ## Acknowledgments
 
-- **AshMaize Algorithm** - [Zondax/ce-ashmaize](https://github.com/Zondax/ce-ashmaize)
+- **AshMaize Algorithm** - [input-output-hk/ce-ashmaize](https://github.com/input-output-hk/ce-ashmaize?tab=MIT-2-ov-file)
 
 ## Support
 
@@ -342,6 +342,7 @@ For issues or questions:
 ---
 
 **Happy Mining!** 🚀⛏️
+
 
 
 
