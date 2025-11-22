@@ -1,0 +1,57 @@
+[package]
+name = "scavenger-miner"
+version = "1.0.0"
+edition = "2021"
+
+# Define multiple binaries
+[[bin]]
+name = "scavenger-miner"
+path = "src/main.rs"
+
+
+[dependencies]
+# Path to the cloned ce-ashmaize repository
+ashmaize = { path = "../ce-ashmaize" }
+
+# For hex encoding/decoding
+hex = "0.4"
+
+# For HTTP requests to the API
+reqwest = { version = "0.11", default-features = false, features = ["json", "blocking", "gzip", "rustls-tls"] }
+
+# For JSON serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# For detecting CPU count
+num_cpus = "1.0"
+
+# For getting hostname
+hostname = "0.3"
+
+# For timestamps
+chrono = "0.4"
+
+# For better parallel processing (uses all logical processors efficiently)
+rayon = "1.8"
+
+# Windows API for proper processor group detection (dual-socket support)
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3", features = ["sysinfoapi", "winnt"] }
+
+[profile.release]
+# Enable Link-Time Optimization for smaller binary size
+lto = true
+# Optimize for size (or use 3 for maximum performance)
+opt-level = 3
+# Strip debug symbols
+strip = true
+# Reduce binary size
+codegen-units = 1
+
+# Windows-specific configuration for static linking
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-C", "target-feature=+crt-static"]
+
+[target.x86_64-pc-windows-gnu]
+rustflags = ["-C", "target-feature=+crt-static"]

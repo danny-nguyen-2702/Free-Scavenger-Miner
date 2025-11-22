@@ -1,0 +1,10 @@
+# Wallets Configuration File
+# Add your Cardano wallet addresses here (one per line)
+# Lines starting with # are comments and will be ignored
+# Empty lines are also ignored
+
+# Example wallet addresses (REPLACE THESE WITH YOUR OWN):
+# addr1q8upjxynn626c772r5nzymt9qgkh3pywscp3p9mxvux9d5h7dkxvt7fqfzm3w7g6xq2yk3vr4kp2s9j8m5n6r7t8y9z0a1b2c3
+# addr1qpxvug56xgecxhuzv3c60u4m7tc5f3qkqjh9d8r7s6t5u4v3w2x1y0z9a8b7c6d5e4f3g2h1i0j9k8l7m6n5o4p3q2r1
+
+# Add your wallet addresses below:
