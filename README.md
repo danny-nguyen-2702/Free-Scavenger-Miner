@@ -36,7 +36,7 @@ Free Scavenger Miner is a standalone mining application that uses the AshMaize p
 
 **Don't want to build from source?** Download the latest prebuilt executable for your platform:
 
-### [📥 Download from Releases](https://github.com/danny-nguyen-2702/Free--Miner/releases)
+### [📥 Download from Releases](https://github.com/danny-nguyen-2702/Free-Scavenger-Miner/releases)
 
 Available platforms:
 - **Windows** (x64) - `scavenger-miner.exe`
@@ -353,6 +353,7 @@ For issues or questions:
 ---
 
 **Happy Mining!** 🚀⛏️
+
 
 
 
